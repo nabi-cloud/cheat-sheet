@@ -1,0 +1,166 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #60675E;
+    overflow: hidden;
+}
+
+nav a {
+    color: white;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+nav a:hover:not(.active) {
+    color: black;
+    background-color: #bAc1b8;
+}
+
+.active {
+    color: black;
+    background-color: white;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.image {
+    max-width: 100%;
+    max-height:100%;
+}
+  
+.text {
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 3px;
+    padding-bottom: 5px;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 44px;
+    margin-bottom: 5px;
+    padding-left: 20px;
+
+}
+
+header p {
+    font-size: 16px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+.subtitle {
+    font-size: 26px;
+    color: white;
+    padding: 10px 20px;
+    margin: 0;
+}
+
+.subtitle-container {
+    background-color: #ff6d00;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+table {
+    box-sizing: content-box;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+td {
+    padding-bottom: 30px;
+}
+
+.tags {
+    font-family: 'Space Mono', monospace;
+    color: #29339B;
+    padding-right: 20px;
+}
+
+.description {
+    font-size: 16px;
+}
+
+section {
+    margin-left: 20px;
+}
+
+.side {
+    border: 3px solid #ff6d00;
+    border-radius: 20px;
+    padding: 0 40px 20px 30px;
+    margin-bottom: 20px;
+    text-align: left;
+    float: left;
+}
+
+.side h1 {
+    font-size: 24px;
+}
+
+.side ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.side li {
+    padding-bottom: 10px;
+}
+
+.side a {
+    text-decoration: none;
+    color: #60675E;
+}
+
+.side a:hover {
+    background-color: #5c5f5b;
+    color: black;
+    font-weight: bolder;
+}
+
+.container {
+    margin-right: 20px;
+}
+
+.column {
+    border: 3px solid #ff6d00;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    height: 100%;
+    width: 80%;
+    float: right;
+}
+
+
+@media screen and (max-width: 800px) {
+    .column {
+      width: 100%;
+    }
+
+    .container {
+        margin-left: 20px;
+    }
+}
