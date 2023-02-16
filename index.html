@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Meta Data-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Source+Sans+Pro:wght@400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="/cheat-sheet/css/index.css">
+    <link rel="icon" type="image/html-logo" href="/cheat-sheet/resources/html-logo.png">
+    <title>HTML Cheat Sheet</title>
+</head>
+<body>
+    <nav>
+        <a class="flex-container active" href="./index.html">
+            <div class="image">
+                <img src="/cheat-sheet/resources/html-logo.png" alt="HTML5 Logo" width="32" height="32">
+            </div>
+            <div class="text">
+                <p>HTML</p>
+            </div>
+        </a>
+        <a class="flex-container" href="./css-page.html">
+            <div class="image">
+                <img src="/cheat-sheet/resources/css-logo.png" alt="CSS Logo" width="32" height="32">
+            </div>
+            <div class="text">
+                <p>CSS</p>
+            </div>
+        </a>
+    </nav>
+
+    <header>
+        <h1>HTML</h1>
+        <p>HTML (HyperText Markup Language) is used to give content to a web page and instructs web browsers on how to structure that content.</p>
+    </header>
+
+    <section>
+        <div class="side">
+            <h1>Topics</h1>
+            <ul>
+                <a href="#elements"><li>Elements</li></a>
+                <a href="#form"><li>Forms</li></a>
+                <a href="#semantic"><li>Semantic</li></a>
+                <a href="#table"><li>Tables</li></a>
+            </ul>
+        </div>
+    </section>
+
+    <main class="container">
+        <!--Box One-->
+        <div class="column left" id="elements">
+            <div class="subtitle-container">
+                <h1 class="subtitle" rowspan="2">Common Elements</h1>
+            </div>
+
+            <table id="elements-table">
+                <tbody>
+                    <tr>
+                        <td class="tags">&lt;a&gt;</td>
+                        <td class="description">Creates a link to another page or to a location in the current page.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;b&gt;</td>
+                        <td class="description">Used to draw attention to a section of text, usually rendered in boldface.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;br&gt;</td>
+                        <td class="description">Represents a break in text. It is used when text needs to span multiple lines rather than being in-line, such as in an address.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;button&gt;</td>
+                        <td class="description">Represents a button meant to be clicked by the user.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;div&gt;</td>
+                        <td class="description">Represents a generic division of content. It has no semantic meaning, but will separate its contents from the rest of the document.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;em&gt;</td>
+                        <td class="description">Represents text which is emphasized. Browsers will show the enclosed text in italics, by default.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;embed&gt;</td>
+                        <td class="description">Inserts external content such as a video, image, page, and more.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;h1&gt;-&lt;h6&gt;</td>
+                        <td class="description">Represents a text heading for a section of content, with &lt;h1&gt; being the highest level of heading and &lt;h6&gt; being the lowest.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;head&gt;</td>
+                        <td class="description">Represents a collection of metadata related to the current document.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;i&gt;</td>
+                        <td class="description">Used to set off HTML text for some reason, as idiomatic, technical, taxonomical and so on. Typically rendered as italic.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;img&gt;</td>
+                        <td class="description">Displays an image on the web page.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;link&gt;</td>
+                        <td class="description">Connects the current page with an external file.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;span&gt;</td>
+                        <td class="description">Used for grouping related text or elements for styling and scripting.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;strong&gt;</td>
+                        <td class="description">Used to identify text that is very important, or urgent.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;video&gt;</td>
+                        <td class="description">Represents an interface for adding video content to the page.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!--Box Two-->
+        <div class="column right" id="form">
+            <div class="subtitle-container">
+                <h1 class="subtitle" rowspan="2">Forms</h1>
+            </div>
+
+            <table id="forms-table">
+                <tbody>
+                    <tr>
+                        <td class="tags">&lt;datalist&gt;</td>
+                        <td class="description">Specifies a list of pre-defined options for an element.</td>
+                    </tr>      
+
+                    <tr>
+                        <td class="tags">&lt;form&gt;</td>
+                        <td class="description">A container for different types of input elements, such as: text fields, checkboxes, radio buttons, submit buttons, etc.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;input&gt;</td>
+                        <td class="description">Can be displayed in several ways, depending on the type attribute.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;label&gt;</td>
+                        <td class="description">Defines a label for several form elements.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;option&gt;</td>
+                        <td class="description">Defines an option that can be selected.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;select&gt;</td>
+                        <td class="description">Defines a drop-down list.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;textarea&gt;</td>
+                        <td class="description">Defines a multi-line input field (a text area).</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+         <!--Box Three-->
+         <div class="column left" id="semantic">
+            <div class="subtitle-container">
+                <h1 class="subtitle" rowspan="2">Semantic HTML</h1>
+            </div>
+            
+            <table id="semantic-table">
+                <tbody>
+                    <tr>
+                        <td class="tags">&lt;article&gt;</td>
+                        <td class="description">Represents a part of a page which is self-contained and could be published elsewhere. Common uses include blog posts or magazine articles.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;figcaption&gt;</td>
+                        <td class="description">Describes the media encapsulated within the &lt;figure&gt; element.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;figure&gt;</td>
+                        <td class="description">Encapsulates media such as an image, diagram, or code snippet.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;footer&gt;</td>
+                        <td class="description">Represents a part of a page which is meant to be at the end of a completed block of content. Common uses include copyright information for the page or additional links to relevant pages.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;header&gt;</td>
+                        <td class="description">Represents a part of a page which is meant to be introductory. It can include heading tags, a logo, a search bar, and navigation elements.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;main&gt;</td>
+                        <td class="description">Represents the primary content within the body element of the web page.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;nav&gt;</td>
+                        <td class="description">Defines a block of navigation links such as menus and tables of contents.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;section&gt;</td>
+                        <td class="description">Defines elements in a document, such as chapters, headings, or any other area of the document with the same theme.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!--Box Four-->
+        <div class="column right" id="table">
+            <div class="subtitle-container">
+                <h1 class="subtitle" rowspan="2">Tables</h1>
+            </div>
+
+            <table id="tables-table">
+                <tbody>
+                    <tr>
+                        <td class="tags">&lt;table&gt;</td>
+                        <td class="description">Represents an interface for adding tabular data to the page. Tables are two dimensional, made up of rows and columns, and can contain many types of content.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;tbody&gt;</td>
+                        <td class="description">A semantic element that will contain all table data other than table heading and table footer content.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;td&gt;</td>
+                        <td class="description">Can be nested inside a table row element to add a cell of data to a table.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;tfoot&gt;</td>
+                        <td class="description">Uses table rows to give footer content or to summarize content at the end of a table.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;th&gt;</td>
+                        <td class="description">Used to add titles to rows and columns of a table and must be enclosed in a table row element.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;thead&gt;</td>
+                        <td class="description">Defines the headings of table columns encapsulated in table rows.</td>
+                    </tr>
+
+                    <tr>
+                        <td class="tags">&lt;tr&gt;</td>
+                        <td class="description">Used to add rows to a table before adding table data and table headings.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+</body>
+</html>
