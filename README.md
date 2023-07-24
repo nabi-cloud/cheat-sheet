@@ -1,4 +1,4 @@
-# Cheat Sheet Project: My Web Development Reference Guide
+# Cheat Sheet Project: My Web Development Guide
 Reference to HTML and CSS tags and properties.
 
 
