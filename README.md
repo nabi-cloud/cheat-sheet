@@ -14,7 +14,7 @@ To get started on this project, I completed the following courses:
 
 
 ## Project Overview
-I had the freedom to select any HTML or CSS topic that I had learned up until now. The project's aim was to compile valuable information and insights into a concise yet comprehensive reference sheet. Some potential topics I considered were:
+I had the freedom to select any HTML or CSS topic that I had learned. The project's aim was to compile valuable information and insights into a concise reference website. Some potential topics I considered were:
 
 HTML Tables: Mastering the art of structuring data with HTML tables.
 Exploring Other HTML Tags: An in-depth look at various HTML tags and their functionalities.
