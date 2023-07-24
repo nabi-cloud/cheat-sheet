@@ -1,5 +1,5 @@
 # Cheat Sheet Project: My Web Development Guide
-Reference to HTML and CSS tags and properties.
+![Cheat Sheet Logo](https://i.postimg.cc/tRNbG1Rk/HTML-CSS-Cheat-Sheet.png)
 
 
 ## Project Goals
