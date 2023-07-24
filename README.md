@@ -1,4 +1,4 @@
-# Cheat Sheet Project: My Web Development Guide
+# Cheat Sheet: My Web Development Guide
 ![Cheat Sheet Logo](https://i.postimg.cc/tRNbG1Rk/HTML-CSS-Cheat-Sheet.png)
 
 
@@ -18,10 +18,10 @@ To get started on this project, I completed the following courses:
 ## Project Overview
 I had the freedom to select any HTML or CSS topic that I had learned. The project's aim was to compile valuable information and insights into a concise reference website. Some potential topics I considered were:
 
-HTML Tables: Mastering the art of structuring data with HTML tables.
-Exploring Other HTML Tags: An in-depth look at various HTML tags and their functionalities.
-CSS Selectors and Specificity: Understanding the power of CSS selectors and how specificity affects styling.
-Common CSS Properties: A compilation of frequently used CSS properties to enhance the appearance of web pages.
+- HTML Tables: Mastering the art of structuring data with HTML tables.
+- Exploring Other HTML Tags: An in-depth look at various HTML tags and their functionalities.
+- CSS Selectors and Specificity: Understanding the power of CSS selectors and how specificity affects styling.
+- Common CSS Properties: A compilation of frequently used CSS properties to enhance the appearance of web pages.
 
 <br>
 
