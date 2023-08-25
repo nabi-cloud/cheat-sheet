@@ -38,3 +38,7 @@ One of the key features implemented here was custom styling for code snippets. U
 
 ## Reflections
 Throughout this project, I deepened my understanding of HTML and CSS concepts. Creating a reference guide from scratch allowed me to internalize the information and reinforced my knowledge.
+
+<br>
+
+@Feb 2023
